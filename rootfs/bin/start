@@ -1,0 +1,3 @@
+#!/bin/sh
+
+$INSTALL_DIR/Hurtworld.x86 -batchmode -exec "host 12871;queryport 12881;maxplayers 20;servername Hurtworld on Docker" -logfile $HW_HOME/hurtworld.log
