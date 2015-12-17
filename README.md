@@ -1,6 +1,6 @@
 # Hurtworld Server
 
-This project contains a Dockerfile for getting Hurtworld up and running in a Docker container.
+This project contains a Dockerfile for getting [a Hurtworld server](http://hurtworld.com/) up and running in a Docker container.
 
 ## Usage
 
