@@ -39,8 +39,8 @@ RUN chown -R $HW_USER:$HW_USER $HW_HOME
 # copy any custom stuff added to the server
 COPY rootfs /
 
-EXPOSE 12871
-EXPOSE 12881
+EXPOSE 12871/udp
+EXPOSE 12881/udp
 
 USER $HW_USER
 WORKDIR $HW_HOME

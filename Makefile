@@ -8,4 +8,4 @@ shell:
 	docker run -it fishworks/hwserver bash
 
 runserver:
-	docker run -d -p 12871:12871 -p 12881:12881 fishworks/hwserver
+	docker run -d -p 12871:12871/udp -p 12881:12881/udp fishworks/hwserver
