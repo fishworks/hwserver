@@ -1,4 +1,6 @@
-all:
+all: build
+
+build:
 	docker build -t fishworks/hwserver .
 
 run:
